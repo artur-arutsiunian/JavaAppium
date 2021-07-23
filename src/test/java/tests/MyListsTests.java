@@ -27,7 +27,7 @@ public class MyListsTests extends CoreTestCase
     {
         SearchPageObject SearchPageObject = new SearchPageObject(driver);
 
-        SearchPageObject.initSearchInput1();
+        SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
         SearchPageObject.clickByArticleWithSubstring("Object-oriented programming language");
 
